@@ -15,89 +15,203 @@
     <br>
 
 
-    <!-- Sidebar STARTED-->
+    <!-- MIDDLE SECTION  -->
 
 
-    <div class="flex h-screen">
-        <div class="bg-gray-800 text-white w-64 p-6">
-            <h1 class=" text-2xl font-bold mb-8">Dashboard</h1>
-            <ul>
-                <li class="mb-4"><a href="#" class="text-gray-300 hover:text-white">Dashboard</a></li>
-                <li class="mb-4"><a href="#" class="text-gray-300 hover:text-white">Analytics</a></li>
-                <li class="mb-4"><a href="#" class="text-gray-300 hover:text-white">Reports</a></li>
-                <li class="mb-4"><a href="#" class="text-gray-300 hover:text-white">Settings</a></li>
-            </ul>
+                                <!-- navbar -->
+
+
+<div class="flex justify-between items-center bg-blue-500 px-[6vw]">
+<a class="btn btn-ghost text-xl font-mono font-semibold text-white">Personal Blogging App</a>
+                            
+<div>
+ <button id="logout" class="btn btn-sm bg-blue-500 border-none text-white hover:bg-blue-600">Logout</button>
+                                    
+</div>
+</div>
+                            
+                            
+                                                <!-- heading -->
+                                
+                            <div class="navbar bg-base-100 px-[6vw] shadow-sm">
+                             <h1 class="text-white font-sans text-2xl text-black font-bold">Dashboard</h1>
+                            </div>
+                            
+                            
+                            
+                            
+                               <!--  blogs section started -->
+                            
+                               <div class="border-gray-300 w-full h-full">
+                            <div class="container mx-[10vw] ">
+                            
+                            
+                            
+                            <!--publish blog -->
+                            
+                            <div class="bg-white p-8 rounded-2xl w-[50vw] shadow-2xl mt-5">
+                                <form id="form">
+                            
+                                  <div class="mb-4">               
+                                    <input type="text" id="blog-title" class="w-full px-3 py-2 border border-gray-300 rounded-md" placeholder="Title">
+                                  </div>
+                            
+                                  <div class="mb-6">  
+                                    <textarea placeholder="What is in your mind" class="textarea textarea-bordered textarea-md w-full "></textarea>
+                                  </div>
+                                  
+                            
+                                  <div class=" mt-2 flex justify-start">
+                                    <button id="publish-btn" class="btn btn-sm btn-primary bg-blue-500 border-none text-white ">Publish Blog</button>
+                                  </div>
+                            
+                                </form>
+                            </div>
+
+
+
+         <!-- my blogs section -->
+
+         <!-- heading -->
+<div class="mt-5">
+    <h1 class="text-white font-sans text-2xl text-black font-bold">My blogs</h1>
+</div>
+
+<!-- blogs -->
+
+<div class="flex flex-col gap-2">
+
+<div class=" p-5 rounded-2xl w-[50vw] shadow-2xl mt-5">
+
+<div class="flex gap-2">
+    <div class="avatar">
+        <div class="w-14 rounded">
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+            alt="Tailwind-CSS-Avatar-component" />
         </div>
+      </div>
+      <div>
+        <h1 class="text-white font-sans text-md text-black font-semibold">an action button could be come to iphone 15</h1>
+        <p class="text-gray-400 font-medium">Ali Zaman October 26</p>
+      </div>  
+</div>
+    
 
-        <!-- Sidebar ENDED -->
-
-        <!-- Main content STARTED-->
-
-
-        <div class="flex-1 flex flex-col">
-
-
-            <!-- Header STARTED-->
-
-
-
-            <header class="bg-white shadow p-4">
-                <div class="flex justify-between items-center">
-                    <h2 class="text-black text-xl font-semibold">Welcome, User</h2>
-                    <button class="bg-blue-500 text-white px-4 py-2 rounded">Logout</button>
-                </div>
-            </header>
-
-            <!-- Header ENDED-->
-
-            <!-- Main Content ENDED -->
-
-
-            <!-- Content area STARTED-->
-
-
-            <main class="flex-1 p-6">
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-
-                    <!-- Content area ENDED -->
+<div class="mt-3">
+    <p class="text-gray-500 font-medium"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quaerat suscipit numquam placeat adipisci soluta asperiores, deleniti provident, exercitationem assumenda vel labore sequi laboriosam praesentium, impedit quidem. Illum aliquid repudiandae laborum provident, aliquam iste fuga. A consequatur hic, alias quisquam ea velit numquam atque voluptatum reprehenderit, iusto blanditiis, non quod.</p>
+</div>
 
 
 
-                    <!-- Card 1 STARTED-->
+<div class="mt-5 flex gap-4">
+    <button class="border-none text-blue-500">Delete</button>
+    <button class="border-none text-blue-500">Edit</button>
+</div>
+
+</div>
 
 
-                    <div class="bg-white p-6 rounded shadow">
-                        <h3 class="text-black text-lg font-semibold mb-2">Card 1</h3>
-                        <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec sapien tempor malesuada.</p>
-                    </div>
+<div class=" p-5 rounded-2xl w-[50vw] shadow-2xl mt-5">
 
-                    <!-- Card 1 ENDED-->
-
+    <div class="flex gap-2">
+        <div class="avatar">
+            <div class="w-14 rounded">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                alt="Tailwind-CSS-Avatar-component" />
+            </div>
+          </div>
+          <div>
+            <h1 class="font-sans text-md text-black font-semibold">an action button could be come to iphone 15</h1>
+            <p class="text-gray-400 font-medium">Ali Zaman October 26</p>
+          </div>  
+    </div>
         
-
-                    <!-- Card 2 STARTED-->
-
-
-                    <div class="bg-white p-6 rounded shadow">
-                        <h3 class="text-black text-lg font-semibold mb-2">Card 2</h3>
-                        <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec sapien tempor malesuada.</p>
-                    </div>
-
-                    <!-- Card 2 ENDED  -->
-
-                    <!-- Card 3 STARTED-->
-
-
-                    <div class="bg-white p-6 rounded shadow">
-                        <h3 class="text-black text-lg font-semibold mb-2">Card 3</h3>
-                        <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec sapien tempor malesuada.</p>
-                    </div>
-                </div>
-            </main>
-        </div>
+    
+    <div class="mt-3">
+        <p class="text-gray-500 font-medium"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quaerat suscipit numquam placeat adipisci soluta asperiores, deleniti provident, exercitationem assumenda vel labore sequi laboriosam praesentium, impedit quidem. Illum aliquid repudiandae laborum provident, aliquam iste fuga. A consequatur hic, alias quisquam ea velit numquam atque voluptatum reprehenderit, iusto blanditiis, non quod.</p>
+    </div>
+    
+    
+    
+    <div class="mt-5 flex gap-4">
+        <button class="border-none text-blue-500">Delete</button>
+        <button class="border-none text-blue-500">Edit</button>
+    </div>
+    
     </div>
 
-    <!-- card 3 ENDED -->
+
+
+    <div class=" p-5 rounded-2xl w-[50vw] shadow-2xl mt-5">
+
+        <div class="flex gap-2">
+            <div class="avatar">
+                <div class="w-14 rounded">
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                    alt="Tailwind-CSS-Avatar-component" />
+                </div>
+              </div>
+              <div>
+                <h1 class="font-sans text-md text-black font-semibold">an action button could be come to iphone 15</h1>
+                <p class="text-gray-400 font-medium">Ali Zaman October 26</p>
+              </div>  
+        </div>
+            
+        
+        <div class="mt-3">
+            <p class="text-gray-500 font-medium"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quaerat suscipit numquam placeat adipisci soluta asperiores, deleniti provident, exercitationem assumenda vel labore sequi laboriosam praesentium, impedit quidem. Illum aliquid repudiandae laborum provident, aliquam iste fuga. A consequatur hic, alias quisquam ea velit numquam atque voluptatum reprehenderit, iusto blanditiis, non quod.</p>
+        </div>
+        
+        
+        
+        <div class="mt-5 flex gap-4">
+            <button class="border-none text-blue-500">Delete</button>
+            <button class="border-none text-blue-500">Edit</button>
+        </div>
+        
+        </div>
+
+
+        <div class=" p-5 rounded-2xl w-[50vw] shadow-2xl mt-5">
+
+            <div class="flex gap-2">
+                <div class="avatar">
+                    <div class="w-14 rounded">
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                        alt="Tailwind-CSS-Avatar-component" />
+                    </div>
+                  </div>
+                  <div>
+                    <h1 class="font-sans text-md text-black font-semibold">an action button could be come to iphone 15</h1>
+                    <p class="text-gray-400 font-medium">Ali Zaman October 26</p>
+                  </div>  
+            </div>
+                
+            
+            <div class="mt-3">
+                <p class="text-gray-500 font-medium"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque quaerat suscipit numquam placeat adipisci soluta asperiores, deleniti provident, exercitationem assumenda vel labore sequi laboriosam praesentium, impedit quidem. Illum aliquid repudiandae laborum provident, aliquam iste fuga. A consequatur hic, alias quisquam ea velit numquam atque voluptatum reprehenderit, iusto blanditiis, non quod.</p>
+            </div>
+            
+            
+            
+            <div class="mt-5 flex gap-4">
+                <button class="border-none text-blue-500">Delete</button>
+                <button class="border-none text-blue-500">Edit</button>
+            </div>
+            
+            </div>
+
+
+
+
+
+</div>
+</div>
+   </div>
 
  
     <script type="module" src="dashboard.js"></script>
